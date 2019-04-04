@@ -35,9 +35,7 @@ public class TestCase6 extends ReUsable {
 	WebElement Upload1=driver.findElement(By.xpath("//div[@class='x-btn blue x-exclude x-unselectable x-box-item x-toolbar-item x-btn-default-toolbar-small x-noicon x-btn-noicon x-btn-default-toolbar-small-noicon']"));
 	Upload1.click();
 	
-	  WebElement save=driver.findElement(By.xpath(" //div[@class='x-btn green skip x-unselectable x-box-item x-toolbar-item x-btn-default-toolbar-small x-noicon x-btn-noicon x-btn-default-toolbar-small-noicon']//div[@class='x-btn-wrap']"));
-	  buttonClicked(save);
-	  
+	 
 	  
 	
 	driver.quit();
